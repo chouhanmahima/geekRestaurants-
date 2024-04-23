@@ -1,0 +1,32 @@
+
+.card-container{
+    box-shadow: 0px 2px 1px 1px rgb(195, 194, 194);
+    border-radius: 0.625rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container:hover{
+    box-shadow: 0 0 4px 4px #c9c9c9;
+}
+
+.padding{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0rem 1.5rem;
+}
+
+.food-type-and-url{
+    background-color: #e9e9e9;
+    border-radius: 0 0 0.625rem 0.625rem;
+}
+
+.food-type-and-url p {
+    color: #07ab07;
+    font-size: 1.2rem;
+    gap: 0.2rem;
+}
+.food-type-and-url a{
+    padding-bottom: 1rem;
+}
